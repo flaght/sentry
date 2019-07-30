@@ -66,7 +66,7 @@ from sentry.api.Analysis import CSZScore
 from sentry.api.Analysis import CSFillNA
 from sentry.api.Analysis import CSRes
 
-from Utilities.Asserts import pyFinAssert
+from sentry.Utilities.Asserts import pyFinAssert
 
 
 __all__ = ["transform",
