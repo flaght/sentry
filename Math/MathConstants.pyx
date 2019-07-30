@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-u"""
-Created on 2017-4-3
-
-@author: cheng.li
-"""
 
 from libc.math cimport NAN as nan_value
 

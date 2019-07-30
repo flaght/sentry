@@ -17,3 +17,9 @@ def print_timing(func):
         t2 = time.time()
         return t2 - t1, res
     return wrapper
+
+
+
+
+
+
