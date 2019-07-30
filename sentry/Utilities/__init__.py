@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import time
 import numpy as np
-from Utilities.Asserts import pyFinAssert
-from Utilities.Asserts import pyFinWarning
-from Utilities.Asserts import isClose
+from sentry.Utilities.Asserts import pyFinAssert
+from sentry.Utilities.Asserts import pyFinWarning
+from sentry.Utilities.Asserts import isClose
 
 __all__ = ['pyFinAssert',
            'pyFinWarning',

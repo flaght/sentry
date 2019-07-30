@@ -32,11 +32,13 @@ ext_modules = [
     "sentry/Math/Accumulators/IAccumulators.pyx",
     "sentry/Math/Accumulators/StatelessAccumulators.pyx",
     "sentry/Math/Accumulators/StatefulAccumulators.pyx",
+    "sentry/Math/Distributions/norm.pyx",
+    "sentry/Math/Distributions/NormalDistribution.pyx",
     "sentry/Analysis/SecurityValueHolders.pyx",
     "sentry/Analysis/SeriesValues.pyx",
     "sentry/Analysis/transformer.pyx",
     "sentry/Analysis/CrossSectionValueHolders.pyx",
-    "sentry/sentry/Analysis/TechnicalAnalysis/StatefulTechnicalAnalysers.pyx",
+    "sentry/Analysis/TechnicalAnalysis/StatefulTechnicalAnalysers.pyx",
     "sentry/Analysis/TechnicalAnalysis/StatelessTechnicalAnalysers.pyx",
 ]
 
