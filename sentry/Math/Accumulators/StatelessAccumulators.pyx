@@ -11,11 +11,11 @@ from libc.math cimport log
 from libc.math cimport fmax
 from libc.math cimport fmin
 from libc.math cimport sqrt
-from Math.Accumulators.IAccumulators import build_holder
-from Math.Accumulators.IAccumulators cimport Accumulator
-from Math.Accumulators.IAccumulators cimport Pow
-from Math.Accumulators.IAccumulators cimport Latest
-from Math.MathConstants cimport NAN
+from sentry.Math.Accumulators.IAccumulators import build_holder
+from sentry.Math.Accumulators.IAccumulators cimport Accumulator
+from sentry.Math.Accumulators.IAccumulators cimport Pow
+from sentry.Math.Accumulators.IAccumulators cimport Latest
+from sentry.Math.MathConstants cimport NAN
 import bisect
 
 

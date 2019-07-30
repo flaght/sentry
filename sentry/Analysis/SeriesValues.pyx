@@ -11,7 +11,7 @@ from numpy import maximum
 from numpy import minimum
 from numpy import isnan
 from scipy.stats import rankdata
-from Math.MathConstants cimport NAN
+from sentry.Math.MathConstants cimport NAN
 
 
 cdef groupby(groups):

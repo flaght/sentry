@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 cimport cython
-from Math.MathConstants cimport NAN
+from sentry.Math.MathConstants cimport NAN
 from cpython.mem cimport PyMem_Malloc, PyMem_Free
 from libc.string cimport memcpy
 

@@ -4,7 +4,7 @@
 cimport cython
 import numpy as np
 cimport numpy as np
-from Utilities.Asserts cimport pyFinAssert
+from sentry.Utilities.Asserts cimport pyFinAssert
 
 @cython.boundscheck(False)
 @cython.wraparound(False)

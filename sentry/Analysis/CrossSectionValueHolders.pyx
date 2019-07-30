@@ -6,10 +6,10 @@ import six
 import numpy as np
 cimport numpy as np
 cimport cython
-from Analysis.SeriesValues cimport SeriesValues
-from Analysis.SecurityValueHolders cimport SecurityValueHolder
-from Analysis.SecurityValueHolders import build_holder
-from Math.MathConstants cimport NAN
+from sentry.Analysis.SeriesValues cimport SeriesValues
+from sentry.Analysis.SecurityValueHolders cimport SecurityValueHolder
+from sentry.Analysis.SecurityValueHolders import build_holder
+from sentry.Math.MathConstants cimport NAN
 
 
 cdef class CrossSectionValueHolder(SecurityValueHolder):

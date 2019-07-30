@@ -19,10 +19,10 @@ cimport cython
 import numpy as np
 cimport numpy as np
 import pandas as pd
-from Utilities.Asserts cimport pyFinAssert
-from Math.MathConstants cimport NAN
-from Math.udfs cimport sign
-from Math.Distributions.NormalDistribution cimport InverseCumulativeNormal as InvNormImpl
+from sentry.Utilities.Asserts cimport pyFinAssert
+from sentry.Math.MathConstants cimport NAN
+from sentry.Math.udfs cimport sign
+from sentry.Math.Distributions.NormalDistribution cimport InverseCumulativeNormal as InvNormImpl
 
 
 

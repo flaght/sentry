@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 cimport numpy as np
-from Math.Accumulators.impl cimport Deque
-from Math.Accumulators.IAccumulators cimport Accumulator
+from sentry.Math.Accumulators.impl cimport Deque
+from sentry.Math.Accumulators.IAccumulators cimport Accumulator
 
 
 cdef class StatefulValueHolder(Accumulator):

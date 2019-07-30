@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from Math.Distributions.NormalDistribution cimport InverseCumulativeNormal as InvNormImpl
+from sentry.Math.Distributions.NormalDistribution cimport InverseCumulativeNormal as InvNormImpl
 
 
 cdef class IAccumulator(object):

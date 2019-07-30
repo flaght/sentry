@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 cimport numpy as np
-from Math.Accumulators.IAccumulators cimport Accumulator
+from sentry.Math.Accumulators.IAccumulators cimport Accumulator
 
 
 cdef class Diff(Accumulator):

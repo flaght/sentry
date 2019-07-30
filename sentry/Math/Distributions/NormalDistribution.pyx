@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 cimport cython
-from Math.Distributions.norm cimport pdf
-from Math.Distributions.norm cimport cdf
-from Math.Distributions.norm cimport cdf_derivative
+from sentry.Math.Distributions.norm cimport pdf
+from sentry.Math.Distributions.norm cimport cdf
+from sentry.Math.Distributions.norm cimport cdf_derivative
 from libc.math cimport exp
 from libc.math cimport log
 from libc.math cimport sqrt
-from Math.MathConstants cimport M_SQRT_2
-from Math.MathConstants cimport M_1_SQRTPI
-from Math.MathConstants cimport QL_EPSILON
-from Math.MathConstants cimport M_SQRT2
-from Math.MathConstants cimport M_SQRTPI
+from sentry.Math.MathConstants cimport M_SQRT_2
+from sentry.Math.MathConstants cimport M_1_SQRTPI
+from sentry.Math.MathConstants cimport QL_EPSILON
+from sentry.Math.MathConstants cimport M_SQRT2
+from sentry.Math.MathConstants cimport M_SQRTPI
 
 
 cdef double _M_SQRT_2 = M_SQRT_2

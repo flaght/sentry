@@ -3,10 +3,10 @@
 
 cimport cython
 from libc.math cimport fabs
-from Math.ErrorFunction cimport errorFunction
-from Math.MathConstants cimport M_SQRT_2
-from Math.MathConstants cimport M_1_SQRTPI
-from Math.MathConstants cimport QL_EPSILON
+from sentry.Math.ErrorFunction cimport errorFunction
+from sentry.Math.MathConstants cimport M_SQRT_2
+from sentry.Math.MathConstants cimport M_1_SQRTPI
+from sentry.Math.MathConstants cimport QL_EPSILON
 
 
 cdef double _M_SQRT_2 = M_SQRT_2

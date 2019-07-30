@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from Math.Accumulators.IAccumulators cimport Accumulator
-from Analysis.SeriesValues cimport SeriesValues
+from sentry.Math.Accumulators.IAccumulators cimport Accumulator
+from sentry.Analysis.SeriesValues cimport SeriesValues
 
 
 cdef class SecurityValueHolder(object):

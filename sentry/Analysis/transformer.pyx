@@ -4,8 +4,8 @@ import numpy as np
 cimport numpy as np
 import pandas as pd
 cimport cython
-from Utilities.Tools import to_dict
-from Analysis.SecurityValueHolders cimport SecurityValueHolder
+from sentry.Utilities.Tools import to_dict
+from sentry.Analysis.SecurityValueHolders cimport SecurityValueHolder
 
 
 @cython.boundscheck(False)
