@@ -1,0 +1,6 @@
+/.ipynb_checkpoints/
+/cython_debug/
+*.c
+*.html
+*.so
+/example/config.py
