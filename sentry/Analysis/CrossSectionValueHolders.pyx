@@ -46,7 +46,6 @@ cdef class CSTopNSecurityValueHolder(CrossSectionValueHolder):
     cdef int _n;
 
     def __init__(self, innerValue, n, groups=None):
-        print('CSTopNSecurityValueHolder')
         super(CSTopNSecurityValueHolder, self).__init__(innerValue, groups)
         self._n = n
 
